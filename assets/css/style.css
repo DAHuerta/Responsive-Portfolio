@@ -65,7 +65,7 @@ h3 {
 
 #logo {
   float: left;
-  width: 250px;
+  width: 380px;
   height: 90px;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
@@ -90,6 +90,11 @@ nav a {
   color: #999;
   text-decoration: none;
   border-left: 1px solid #efefef;
+}
+
+a:hover {
+  color: #4aaaa5;
+  font-weight: bold;
 }
 
 nav a:first-child {

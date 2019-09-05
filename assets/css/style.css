@@ -238,6 +238,7 @@ input[type=submit] {
     color: #999;
     text-decoration: none;
     border-left: 1px solid #efefef;
+    font-size: 14px;
   }
 
   nav {
@@ -248,12 +249,38 @@ input[type=submit] {
 
   .main-section {
     float: left;
-    width: 70%;
+    width: 71%;
     max-width: 960px;
     padding: 30px;
-    margin: 0 0 40px;
+    margin: 0 0 100px;
     background: #ffffff;
     border: 1px solid #dddddd;
+  }
+
+  #masthead {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    margin: -8px -8px 30px;
+    overflow: auto;
+    color: #ffffff;
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+  }
+
+  #logo {
+    float: left;
+    width: 380px;
+    height: 90px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+    margin-left: 8px;
   }
 }
 
@@ -263,10 +290,19 @@ input[type=submit] {
     width: 99%;
     max-width: 960px;
     padding: 30px;
-    margin: 0 0 40px;
+    margin: 0 0 100px;
     background: #ffffff;
     border: 1px solid #dddddd;
+    padding-top: 0;
   }
+
+  .work {
+    position: relative;
+    float: left;
+    width: 300px;
+    margin: 20px 0 25px;
+    overflow: auto;
+    }
 
   nav a {
     display: inline-block;
@@ -295,5 +331,61 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 640px) {
-  
+  #logo {
+    float: left;
+    width: 640px;
+    height: 90px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+    margin-left: -23px;
+  }
+
+  #masthead {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    margin: -8px -8px 30px;
+    overflow: auto;
+    color: #ffffff;
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+  }
+
+  nav {
+    float: right;
+    margin: auto;
+    margin-right: 215px;
+  }
+
+  .auth-image {
+    width: 400px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 60px;
+  }
+
+  .work {
+    position: relative;
+    float: left;
+    width: 525px;
+    margin: 20px 0 25px;
+    overflow: auto;
+  }
+
+  .main-section {
+    float: left;
+    width: 99%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 100px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    padding-top: 0;
+  }
 }

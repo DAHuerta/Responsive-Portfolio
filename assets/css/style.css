@@ -56,7 +56,7 @@ h3 {
   position: fixed;
   z-index: 99;
   width: 100%;
-  margin: 0 0 30px;
+  margin: -8px 0 30px;
   overflow: auto;
   color: #ffffff;
   background: #ffffff;
@@ -219,4 +219,81 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+@media screen and (max-width: 980px) {
+  .container {
+    width: 95%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+    margin-left: 30px;
+  }
+
+  nav a {
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
+    color: #999;
+    text-decoration: none;
+    border-left: 1px solid #efefef;
+  }
+
+  nav {
+    float: right;
+    margin-top: 25px;
+    margin-right: 10px;
+  }
+
+  .main-section {
+    float: left;
+    width: 70%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-section {
+    float: left;
+    width: 99%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+  }
+
+  nav a {
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
+    color: #999;
+    text-decoration: none;
+    border-left: 1px solid #efefef;
+    font-size: 14px;
+  }
+
+  nav {
+    float: right;
+    margin-top: 25px;
+    margin-right: 20px;
+  }
+
+  .container {
+    width: 95%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+    margin-left: 23px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  
 }
